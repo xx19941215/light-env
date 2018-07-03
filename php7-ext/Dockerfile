@@ -1,4 +1,4 @@
-FROM xx19941215/php7:latest
+FROM xx19941215/php:latest
 
 MAINTAINER "xx19941215@gmail.com"
 
