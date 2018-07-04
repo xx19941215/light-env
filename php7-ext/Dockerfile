@@ -19,16 +19,6 @@ RUN set -ex \
     ca-certificates \
 
 && cd /usr/local/src/ \
-&& git clone https://github.com/phpredis/phpredis phpredis \
-&& cd phpredis \
-&& git checkout php7 \
-
-&& phpize \
-&& ./configure \
-&& make \
-&& make install \
-
-&& cd /usr/local/src/ \
 && git clone https://github.com/swoole/swoole-src.git \
 && cd swoole-src \
 
